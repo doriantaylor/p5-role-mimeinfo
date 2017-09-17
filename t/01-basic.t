@@ -1,0 +1,21 @@
+#!perl -T
+
+use strict;
+use warnings FATAL => 'all';
+
+package My::Test;
+
+use Moo;
+with 'Role::MimeInfo';
+
+package main;
+
+use Test::More;
+
+plan tests => 2;
+
+my $obj = My::Test->new;
+
+can_ok($obj, 'mimetype');
+
+can_ok($obj, 'mimetype_isa');
