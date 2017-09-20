@@ -29,9 +29,10 @@ build_requires (
 );
 
 requires (
-    'Moo'            => '2.003',
-    'File::MimeInfo' => '0.27',
-    'IO::Scalar'     => '2.110',
+    'Moo'                  => '2.003',
+    'namespace::autoclean' => '0.28',
+    'File::MimeInfo'       => '0.27',
+    'IO::Scalar'           => '2.110',
 );
 
 install_as_cpan;

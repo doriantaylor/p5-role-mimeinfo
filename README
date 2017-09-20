@@ -2,7 +2,7 @@ NAME
     Role::MimeInfo - Bolt-on type checking against GNOME shared-mime-info
 
 VERSION
-    Version 0.01
+    Version 0.02
 
 SYNOPSIS
         use Moo; # or Moose or Mouse or whatever
